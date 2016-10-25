@@ -1,0 +1,3 @@
+
+python26 ../generic_parser.py -d ../all_xml -p records -r REC -i UID -n {http://scientific.thomsonreuters.com/schema/wok5.4/public/FullRecord} -o ../output/full -c ../config/wos_config.xml -t ../config/wos_template.sql -l ../config/wos_file_numbers.csv -m Postgres -s True
+
